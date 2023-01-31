@@ -1,7 +1,7 @@
 
 blocos = 0
 numeroInicial1 = 60000
-numeroFinal1 = 60000
+numeroFinal1 = 59999
 listaBlocos1 = []
 while numeroFinal1 < 79999:
    
@@ -29,6 +29,9 @@ while True:
         print("################## VALORES ACIMA DE 60 MIL ##################")
         print("################## VALORES ACIMA DE 60 MIL ##################")
         print("################## VALORES ACIMA DE 60 MIL ##################")
+        break
+    elif vencedor == 60000:
+        print("O numero ganhador está no bloco: 1")
         break
     else:
         blocoGanhador += 1

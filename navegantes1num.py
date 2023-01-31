@@ -2,7 +2,7 @@
 
 blocos = 0
 numeroInicial1 = 0
-numeroFinal1 = 0
+numeroFinal1 = -1
 listaBlocos1 = []
 while numeroFinal1 < 19999:
    
@@ -30,6 +30,9 @@ while True:
         print("################## VALORES ENTRE 0 E 20 MIL ##################")
         print("################## VALORES ENTRE 0 E 20 MIL ##################")
         print("################## VALORES ENTRE 0 E 20 MIL ##################")
+        break
+    elif vencedor == 0:
+        print("O numero ganhador está no bloco: 1")
         break
     else:
         blocoGanhador += 1

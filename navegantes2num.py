@@ -32,6 +32,9 @@ while True:
         print("################## VALORES ENTRE 20 MIL E 40 MIL ##################")
         print("################## VALORES ENTRE 20 MIL E 40 MIL ##################")
         break
+    elif vencedor == 20000:
+        print("O numero ganhador está no bloco: 1000")
+        break
     else:
         blocoGanhador += 1
         blocoRevisado += 2
